@@ -1,0 +1,39 @@
+.container{
+	width: 60%
+}
+
+#tb-tech-skills
+{
+    /*line-height: 30px;*/
+    width: 100%;
+}
+
+.prodes
+{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.respon
+{
+    padding: 20px;
+    background-color: #f2f2f2; 
+}
+
+.respon ul{
+	padding-left: 20;
+}
+
+.respon ul li
+{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.exp
+{
+    padding: 20px;
+
+    border: 1px solid #f2f2f2;
+    margin-bottom: 15px;
+}
