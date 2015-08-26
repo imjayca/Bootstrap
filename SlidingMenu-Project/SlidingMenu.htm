@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>SlidingMenu Demo</title>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <!-- My Style -->
+    <link rel="stylesheet" href="mystyle.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="pull-left">logo</h1>
+            <div id="nav">
+                <ul id="l-nav-el" class="pull-left">
+                    <li><a href="#" id="li-personal">Personal</a></li>
+                    <li><a href="#" id="li-business">Business</a></li>
+                    <li><a href="#" id="li-send">Send</a></li>
+                    <li><a href="#" id="li-request">Request</a></li>
+                </ul>
+                <ul id="r-nav-el" class="pull-right">
+                    <li>Log In</li>
+                    <li>Sign Up</li>
+                </ul>
+            </div>
+            <!-- end of 'nav' -->
+        </div>
+        <!-- end of 'row' -->
+
+
+        <div class="row">
+            <div id="personal" class="nav-expan">
+                <ul>
+                    <li><a href="#">Pay on eBay</a></li>
+                    <li><a href="#">Pay on websites</a></li>
+                    <li><a href="#">Pay in apps</a></li>
+                    <li><a href="#">Pay in stores</a></li>
+                    <li><a href="#">More ways to use us</a></li>
+                </ul>
+            </div>
+            <!-- end of 'personal' -->
+            <div id="business" class="nav-expan">
+                <ul>
+                    <li><a href="#">All Busienss Solution</a></li>
+                    <li><a href="#">Get paid on your website</a></li>
+                    <li><a href="#">Get paid on the go</a></li>
+                    <li><a href="#">Get paid in your store</a></li>
+                    <li><a href="#">Get paid in your add</a></li>
+                    <li><a href="#">Email an invoice</a></li>
+                </ul>
+            </div>
+            <!-- end of 'business' -->
+            <div id="send" class="nav-expan">
+                <h2>Send money in a few clicks  |  <small><a href="#">Learn more...</a></small></h2>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- end of 'container' -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- My jQueryScript -->
+    <script src="myscript.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>

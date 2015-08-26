@@ -1,0 +1,35 @@
+h1 {
+    width: 100px;
+}
+
+#nav {
+    margin-top: 32px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-left: 10px;
+}
+
+
+.nav-expan {
+    padding: 100px;
+    background-color: #9482FF;
+    text-align: center;
+    display: none;
+}
+
+
+.nav-expan ul li a {
+    color: white;
+}
+
+#send{
+	background-color: #E8E8E8;
+}
